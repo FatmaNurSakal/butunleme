@@ -136,6 +136,7 @@ results/presentation_assets/
   <img src="results/presentation_assets/simplecnn_aug_on_accuracy.png" width="32%" />
   <img src="results/presentation_assets/simplecnn_aug_on_confusion_matrix.png" width="32%" />
 </p>
+<img width="3520" height="1760" alt="inference_grid" src="https://github.com/user-attachments/assets/50b24a7e-5a65-4f99-b535-cd3b836da001" />
 
 #### CustomCNN (Aug ON)
 
@@ -144,6 +145,7 @@ results/presentation_assets/
   <img src="results/presentation_assets/customcnn_aug_on_accuracy.png" width="32%" />
   <img src="results/presentation_assets/customcnn_aug_on_confusion_matrix.png" width="32%" />
 </p>
+<img width="3520" height="1760" alt="inference_grid" src="https://github.com/user-attachments/assets/1366e633-b03f-44fa-a6d9-cac2963eb8ed" />
 
 #### ResNet-18 (Aug ON)
 
@@ -152,6 +154,7 @@ results/presentation_assets/
   <img src="results/presentation_assets/resnet18_aug_on_accuracy.png" width="32%" />
   <img src="results/presentation_assets/resnet18_aug_on_confusion_matrix.png" width="32%" />
 </p>
+<img width="3520" height="1760" alt="inference_grid" src="https://github.com/user-attachments/assets/f3593eaa-95ff-438b-89c4-cda1fbaa8789" />
 
 #### ResNet-18 (Aug OFF)
 
@@ -160,6 +163,7 @@ results/presentation_assets/
   <img src="results/presentation_assets/resnet18_aug_off_accuracy.png" width="32%" />
   <img src="results/presentation_assets/resnet18_aug_off_confusion_matrix.png" width="32%" />
 </p>
+<img width="3520" height="1760" alt="inference_grid" src="https://github.com/user-attachments/assets/9df9cca3-fc56-4a81-a2e0-9eefe87ac6e4" />
 
 #### ViT-Tiny (Aug ON)
 
@@ -168,6 +172,7 @@ results/presentation_assets/
   <img src="results/presentation_assets/vit_tiny_aug_on_accuracy.png" width="32%" />
   <img src="results/presentation_assets/vit_tiny_aug_on_confusion_matrix.png" width="32%" />
 </p>
+<img width="3520" height="1760" alt="inference_grid" src="https://github.com/user-attachments/assets/c6f0446f-2bee-4f9d-b55f-8aafbac93c38" />
 
 #### ConvNeXt-Tiny (Aug ON)
 
@@ -176,12 +181,14 @@ results/presentation_assets/
   <img src="results/presentation_assets/convnext_tiny_aug_on_accuracy.png" width="32%" />
   <img src="results/presentation_assets/convnext_tiny_aug_on_confusion_matrix.png" width="32%" />
 </p>
+<img width="3520" height="1760" alt="inference_grid" src="https://github.com/user-attachments/assets/840c6379-a94b-462b-a30d-5eaed071e76f" />
 
 ### Tüm Modellerin Karşılaştırması
 
 <p align="center">
   <img src="results/presentation_assets/compare_all_models.png" width="75%" />
 </p>
+<img width="3750" height="897" alt="metrics_table_from_txt" src="https://github.com/user-attachments/assets/49700ee9-f608-4958-937e-bb91eb294272" />
 
 ---
 
@@ -259,3 +266,4 @@ results/runs/<RUN_NAME>/
 ## Ders Bilgileri
 * **Ders:** Derin Öğrenme ve Uygulamaları
 * **Konu:** CIFAR-10 Üzerinde 5 Model Karşılaştırması (Aynı Şartlar)
+
