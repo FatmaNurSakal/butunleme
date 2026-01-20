@@ -1,0 +1,8 @@
+{
+  "model": "convnext_tiny",
+  "seed": 42,
+  "use_augmentation": true,
+  "img_size": 224,
+  "best_val_acc": 0.6282,
+  "run_dir": "results/runs\\convnext_tiny_aug_on_20260117_163226"
+}

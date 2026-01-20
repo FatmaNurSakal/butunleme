@@ -1,0 +1,4 @@
+{
+  "test_acc": 0.4353,
+  "confusion_matrix_path": "results/runs\\simplecnn_aug_on_20260117_004754\\figures\\confusion_matrix.png"
+}

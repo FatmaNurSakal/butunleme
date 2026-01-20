@@ -1,0 +1,15 @@
+RUN: results/runs/vit_tiny_aug_on_20260117_150214
+MODEL: vit_tiny | IMG: 224x224
+
+METRICS (TEST)
+Accuracy: 0.4750
+Precision (macro): 0.5060
+Recall (macro): 0.4750
+F1-Score (macro): 0.4602
+ROC-AUC OVR (macro): 0.8867
+
+EXTRA (weighted)
+Precision (weighted): 0.5060
+Recall (weighted): 0.4750
+F1-Score (weighted): 0.4602
+ROC-AUC OVR (weighted): 0.8867

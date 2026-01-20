@@ -1,0 +1,8 @@
+{
+  "model": "resnet18",
+  "seed": 42,
+  "use_augmentation": false,
+  "img_size": 224,
+  "best_val_acc": 0.7661,
+  "run_dir": "results/runs\\resnet18_aug_off_20260117_220415"
+}

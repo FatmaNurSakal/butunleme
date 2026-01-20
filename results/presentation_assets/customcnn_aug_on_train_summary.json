@@ -1,0 +1,8 @@
+{
+  "model": "customcnn",
+  "seed": 42,
+  "use_augmentation": true,
+  "img_size": 224,
+  "best_val_acc": 0.5496,
+  "run_dir": "results/runs\\customcnn_aug_on_20260117_030434"
+}

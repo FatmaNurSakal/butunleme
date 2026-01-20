@@ -1,0 +1,16 @@
+METRICS SUMMARY (CIFAR-10) — Test set
+Metrikler: Accuracy, Precision, Recall, F1-Score, ROC-AUC (multiclass OVR)
+--------------------------------------------------------------------------------------------------------------
+rank model          run                                acc      prec     rec      f1       auc      img 
+--------------------------------------------------------------------------------------------------------------
+1    resnet18       resnet18_aug_on_20260117_130421    0.7683   0.7791   0.7683   0.7658   0.9747   224 
+2    resnet18       resnet18_aug_off_20260117_220415   0.7661   0.7884   0.7661   0.7680   0.9753   224 
+3    convnext_tiny  convnext_tiny_aug_on_20260117_1632 0.6282   0.6436   0.6282   0.6200   0.9387   224 
+4    customcnn      customcnn_aug_on_20260117_030434   0.5496   0.5936   0.5496   0.5422   0.9126   224 
+5    vit_tiny       vit_tiny_aug_on_20260117_150214    0.4750   0.5060   0.4750   0.4602   0.8867   224 
+6    simplecnn      simplecnn_aug_on_20260117_004754   0.4353   0.4425   0.4353   0.4172   0.8625   224 
+--------------------------------------------------------------------------------------------------------------
+Notlar:
+ - Precision/Recall/F1 burada MACRO average olarak raporlandı (sınıflar eşit ağırlıklı).
+ - ROC-AUC: multiclass One-vs-Rest (OVR), softmax olasılıklarından hesaplandı.
+ - İstersen weighted değerler de per-run dosyalarda var (per_run_dir verirsen).

@@ -1,0 +1,4 @@
+{
+  "test_acc": 0.475,
+  "confusion_matrix_path": "results/runs\\vit_tiny_aug_on_20260117_150214\\figures\\confusion_matrix.png"
+}

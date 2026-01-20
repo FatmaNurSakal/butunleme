@@ -1,0 +1,4 @@
+{
+  "test_acc": 0.7661,
+  "confusion_matrix_path": "results/runs\\resnet18_aug_off_20260117_220415\\figures\\confusion_matrix.png"
+}
