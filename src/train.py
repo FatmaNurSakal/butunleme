@@ -122,7 +122,7 @@ def main():
         batch_size=cfg.batch_size,
         num_workers=cfg.num_workers,
         use_augmentation=cfg.use_augmentation,
-        img_size=cfg.img_size,  # ✅
+        img_size=cfg.img_size,
     )
 
     model = build_model(cfg.model_name, cfg.num_classes).to(device)
@@ -169,9 +169,10 @@ def main():
     }
     save_json(os.path.join(metrics_dir, "train_summary.json"), summary)
 
-    print(f"\n✅ Best Val Acc: {best_val_acc:.4f}")
-    print(f"✅ Saved run: {run_dir}")
+    print(f"\nBest Val Acc: {best_val_acc:.4f}")
+    print(f"Saved run: {run_dir}")
 
 
 if __name__ == "__main__":
     main()
+
